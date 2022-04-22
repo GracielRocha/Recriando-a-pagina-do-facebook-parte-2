@@ -10,7 +10,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #f0f2f5;
+    background-color: #e7d7d2;
 }
 
 .container{
@@ -49,12 +49,12 @@ body{
 }
 
 form{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 400px;
     display: flex;
     padding: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
 }
 
@@ -63,55 +63,55 @@ form input{
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border: 1px solid #999;
+    border: 1px solid rgb(32, 196, 199);
     outline: none;
     font-size: 16px;
 }
 
 form input:focus{
-    border: 1px solid #1877f2;
+    border: 1px solid #35f218;
 }
 
 
 .right__loginBtn{
-    background-color:#1877f2;
+    background-color:#2a18f2;
     padding: 15px;
     text-align: center;
     text-decoration: none;
     width: 100%;
     border-radius: 5px;
-    color: white;
+    color: rgba(255, 244, 244, 0.937);
     font-family: 'Arial';
     font-weight: 700;
     transition:0.5s;
 }
 
 .right__loginBtn--hover:hover{
-    background-color: #4257b2
+    background-color: #36a448
 }
 
 .right__forget{
     margin: 15px 0;
     text-decoration: none;
-    color: #1877f2;
+    color: #030304;
     font-family: 'Arial';
     font-size: 14px;
 }
 
 .right__sign-up{
     padding-top: 20px;
-    border-top: 1px solid #999;
+    border-top: 1px solid rgb(0, 0, 0);
     width:100%;
     display: flex;
     justify-content: center;
 }
 
 .right__sign-upBtn{
-    background-color: #42b72a;
+    background-color: #070708;
     padding: 15px;
     text-decoration: none;
     border-radius: 5px;
-    color: white;
+    color: rgb(232, 232, 232);
     font-size:17px;
     font-family: 'Arial';
     font-weight: 600;
@@ -119,7 +119,7 @@ form input:focus{
 }
 
 .right__sign-upBtn--hover:hover{
-    background-color: green
+    background-color: rgb(21, 128, 0)
 }
 
 .right p{
